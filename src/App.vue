@@ -5,17 +5,16 @@
 </template>
 
 <script>
-import exo1 from './components/exo1.vue'
-
+import Exo1 from "@/pages/Exo1";
 export default {
   name: 'App',
   components: {
-    exo1
+    Exo1
   }
 }
 </script>
 
-<style>
+<style lang="scss" >
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
