@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <exo3 />
+    <exo5 />
   </div>
 </template>
 
 <script>
-import Exo3 from "@/pages/Exo3";
+import Exo5 from "@/pages/exo5";
 export default {
   name: 'App',
   components: {
-    Exo3
+    Exo5
   }
 }
 </script>
