@@ -1,16 +1,12 @@
 <template>
   <div id="app">
-    <exo5 />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Exo5 from "@/pages/exo5";
 export default {
   name: 'App',
-  components: {
-    Exo5
-  }
 }
 </script>
 
